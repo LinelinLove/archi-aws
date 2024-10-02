@@ -4,6 +4,6 @@ services:
     expose:
       - "80"
     volumes:
-      - ./code:/usr/share/nginx/html
+      - ./:/usr/share/nginx/html
     ports:
       - 80:80
